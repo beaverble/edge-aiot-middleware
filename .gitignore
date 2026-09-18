@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+environment/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# 데이터 / 압축 / 모델 가중치
+*.csv
+*.xlsx
+*.zip
+*.7z
+*.pt
+*.h5
+*.task
+*.ckpt
+*.log
+
+# 시크릿 / 환경변수
+.env
+*secret*
+config.ini
+
+# Notebook / OS
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
